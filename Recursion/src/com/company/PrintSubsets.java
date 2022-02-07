@@ -8,9 +8,6 @@ public class PrintSubsets {
             return;
         }
 
-        if(input.length()==1){
-            input =
-        }
 
         String output2 = output;
         String output1 = output + input.charAt(0);
@@ -20,8 +17,8 @@ public class PrintSubsets {
     }
 
     public static void printSubsets(String s){
-        String in = new StringBuilder(s);
-        StringBuilder out = new StringBuilder("")
+        String in = new String(s);
+        String out = new String("");
         printSubsets(in, out);
     }
 

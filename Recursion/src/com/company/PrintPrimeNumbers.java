@@ -8,7 +8,7 @@ public class PrintPrimeNumbers {
             return;
         }
         printPrimeNumbers(n-1);
-        for (int i = 2; i < n/2; i++){
+        for (int i = 2; i < n/2; i++){ // We divide it by 2 to reduce complexity
             if (n % i == 0){
                 return;
             }
