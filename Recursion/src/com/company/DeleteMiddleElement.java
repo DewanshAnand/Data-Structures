@@ -8,7 +8,7 @@ public class DeleteMiddleElement {
         if(s.size()<=1){
             return;
         }
-        
+
 
     }
 }
